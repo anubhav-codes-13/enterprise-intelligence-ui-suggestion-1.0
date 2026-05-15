@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Innodata Enterprise AI — UI Showcase</title>
+  <link rel="stylesheet" href="anubhav.css">
+</head>
+<body>
+
+  <!-- ─── Navbar ─── -->
+  <nav>
+    <div class="nav-logo">
+      <div class="nav-logo-icon">IN</div>
+      <div class="nav-logo-text">Innodata <span>Enterprise AI</span></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#screen-1">Chat</a></li>
+      <li><a href="#screen-2">Settings</a></li>
+      <li><a href="#screen-3">Connectors</a></li>
+      <li><a href="#screen-4">Research</a></li>
+      <li><a href="#screen-5">Research 2.0</a></li>
+    </ul>
+    <div class="nav-badge">UI Showcase</div>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero">
+    <div class="hero-label">Product Design · Figma Screens · May 2026</div>
+    <h1>Enterprise AI<br/>Interface Designs</h1>
+    <p>A visual walkthrough of the Innodata Enterprise Intelligence platform — from intelligent chat to competitive research feeds and workspace connectors.</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">5</div>
+        <div class="stat-label">Screens</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Features</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">1</div>
+        <div class="stat-label">Platform</div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ─── Section Divider ─── -->
+  <div class="section-label">
+    <div class="section-label-line"></div>
+    <div class="section-label-text">Screen Designs</div>
+    <div class="section-label-line"></div>
+  </div>
+
+  <!-- ─── Gallery ─── -->
+  <main class="gallery">
+
+    <!-- 1.0 — Chat Screen -->
+    <div class="screen-card" id="screen-1">
+      <div class="card-info">
+        <div class="card-number">1.0</div>
+        <div class="card-badge">Chat Interface</div>
+        <div class="card-title">AI-Powered Chat Screen</div>
+        <div class="card-desc">
+          The core conversational interface where enterprise users interact with the AI. Designed for fast, structured research queries with intelligent plan drafts and session management.
+        </div>
+        <div class="card-features">
+          <div class="feature-item">Intelligence Plan Draft with approval workflow</div>
+          <div class="feature-item">Data Extraction &amp; Indexing pipeline</div>
+          <div class="feature-item">Semantic Overlap Mapping with LLM embeddings</div>
+          <div class="feature-item">Persistent session history in sidebar</div>
+        </div>
+      </div>
+      <div class="card-image" onclick="openLightbox(this)">
+        <div class="img-label">Screen 1.0</div>
+        <img src="1.0-chat-seceen.png" alt="Chat Screen" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- 2.0 — Settings Screen -->
+    <div class="screen-card reverse" id="screen-2">
+      <div class="card-info">
+        <div class="card-number">2.0</div>
+        <div class="card-badge">Workspace Settings</div>
+        <div class="card-title">Settings &amp; Configuration</div>
+        <div class="card-desc">
+          Workspace-level configuration for managing competitor outlets and platform integrations. Users can track domains per topic cluster to power competitive intelligence pipelines.
+        </div>
+        <div class="card-features">
+          <div class="feature-item">Competitor Outlets tab for domain tracking</div>
+          <div class="feature-item">Connectors tab for platform integrations</div>
+          <div class="feature-item">Collapsible topic categories</div>
+          <div class="feature-item">Inline URL management with quick-add</div>
+        </div>
+      </div>
+      <div class="card-image" onclick="openLightbox(this)">
+        <div class="img-label">Screen 2.0</div>
+        <img src="2.0-setting-screen.png" alt="Settings Screen" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- 3.0 — Connector Settings -->
+    <div class="screen-card" id="screen-3">
+      <div class="card-info">
+        <div class="card-number">3.0</div>
+        <div class="card-badge">Connectors</div>
+        <div class="card-title">Connector Settings</div>
+        <div class="card-desc">
+          Enterprise integration hub for synchronizing data across platforms. Connect SharePoint, Microsoft Teams, and Slack to power Innodata's Aether engine with real-time contextual data.
+        </div>
+        <div class="card-features">
+          <div class="feature-item">SharePoint document sync for AI models</div>
+          <div class="feature-item">Microsoft Teams webhook &amp; bot token</div>
+          <div class="feature-item">Slack knowledge base &amp; workflow triggers</div>
+          <div class="feature-item">Connection status badges per platform</div>
+        </div>
+      </div>
+      <div class="card-image" onclick="openLightbox(this)">
+        <div class="img-label">Screen 3.0</div>
+        <img src="3.0-connector-setting-screen.png" alt="Connector Settings Screen" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- 4.0 — Research Feed -->
+    <div class="screen-card reverse" id="screen-4">
+      <div class="card-info">
+        <div class="card-number">4.0</div>
+        <div class="card-badge">Intelligence Center</div>
+        <div class="card-title">Research Feed</div>
+        <div class="card-desc">
+          Curated intelligence reports and competitive landscape analysis, updated in real time. A dual-pane layout lets users scan a feed of insights and read full reports side by side.
+        </div>
+        <div class="card-features">
+          <div class="feature-item">Competitor scan &amp; market trend tagging</div>
+          <div class="feature-item">AI Data Annotation Platforms Q3 analysis</div>
+          <div class="feature-item">Enterprise LLM adoption in healthcare</div>
+          <div class="feature-item">Inline report viewer with executive summary</div>
+        </div>
+      </div>
+      <div class="card-image" onclick="openLightbox(this)">
+        <div class="img-label">Screen 4.0</div>
+        <img src="4.0-resaerch-feed.png" alt="Research Feed" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- 5.0 — Research Feed 2.0 -->
+    <div class="screen-card" id="screen-5">
+      <div class="card-info">
+        <div class="card-number">5.0</div>
+        <div class="card-badge">Intelligence Center 2.0</div>
+        <div class="card-title">Research Feed 2.0</div>
+        <div class="card-desc">
+          An evolved Research Feed with expanded card grid, live market pulse metrics, trending topic tags, and recent activity streams — bringing competitive awareness to a single dashboard.
+        </div>
+        <div class="card-features">
+          <div class="feature-item">Market Pulse KPIs: markets tracked &amp; velocity</div>
+          <div class="feature-item">Trending topics with hashtag tags</div>
+          <div class="feature-item">Recent activity: drafts, agent updates</div>
+          <div class="feature-item">Featured Insight Summary card</div>
+        </div>
+      </div>
+      <div class="card-image" onclick="openLightbox(this)">
+        <div class="img-label">Screen 5.0</div>
+        <img src="5.0-resaerch-feed-2.0.png" alt="Research Feed 2.0" loading="lazy" />
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ─── Footer ─── -->
+  <footer>
+    <strong>Innodata Enterprise AI</strong> · UI Screens 1.0 – 5.0 · May 2026 Design Sprint
+    <br/><br/>
+    Created with <span class="heart">&#10084;</span> by <strong>Anubhav</strong>
+  </footer>
+
+  <!-- ─── Lightbox ─── -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&#x2715;</button>
+    <img id="lightbox-img" src="" alt="" onclick="event.stopPropagation()" />
+  </div>
+<script src="anubhav.js"></script>
+</body>
+</html>
